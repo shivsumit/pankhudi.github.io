@@ -1,0 +1,288 @@
+body{
+	margin: 10px;
+	padding: 5px;
+}
+.login, .signup{
+background-image: url(images/background1.png);
+background-size: cover;
+}
+.header{
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	position: relative;
+	border-radius:20px;
+	background-color: #fff7e6;
+	width: 100%;
+	height: 80px;
+}
+.logo{
+	border-radius: 90px;
+	position: absolute;
+	top:3px;
+	left: 5px;
+	width: 70px;
+	height:70px;
+	border: 2px solid black
+}
+.text1{
+	position: absolute;
+	left: 100px;
+	font-size: 45px;
+	font-family: courier;
+	font-weight: bold;
+	color:green;
+}
+.text2{
+	position: absolute;
+	left: 125px;
+	top:40px;
+	font-size: 30px;
+	font-family: brush script MT;
+	letter-spacing: 3px;
+	color:red;
+}
+.social_media img{
+	width:30px;
+	height: 30px;
+	border-radius: 50px;
+	margin: 10px
+}
+.social_media{
+	position: absolute;
+	right: 20px;
+	top:15px;
+}
+a{
+	text-decoration:none;
+
+}
+.menu{
+	width: 100%;
+	border-radius: 20px;
+
+}
+.menu li{
+	display: inline-block;
+	width:8%;
+	text-align: center;
+	border-radius: 20px;
+	padding: 2px;
+	margin: 3px;
+	background-color: #ccffcc;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: courier;
+	box-shadow:0 3px 12px 0 rgba(0,0,0,0.3),0 2px 10px 0 rgba(0,0,0,0.4);
+	border: 2px solid black;
+}
+.menu li:hover{
+	background-color: #ff3300;
+	color: white
+}
+.form_heading{
+	text-align: right;
+	font-weight: bold;
+	font-family: courier;
+	font-size: 15px;
+
+}
+.login_form {
+	width: 35%;
+	border-radius: 30px;
+	border: 2px solid black;
+	border-spacing: 15px;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		background-image: radial-gradient(lightblue,white,lightblue)
+}
+
+.contact_form {
+	width: 350px;
+	border: 2px solid black;
+	border-radius: 20px ;
+	border-spacing: 15px;
+	box-shadow:0 2px 10px 0 rgba(0,0,0,0.2),0 2px 10px 0 rgba(0,0,0,0.3);
+	background-image: radial-gradient(white,lightyellow)
+}
+
+.sign_form{
+	width: 70%;
+	border-radius: 30px;
+	border: 2px solid black;
+	border-spacing: 15px;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	background-image: radial-gradient(white,lightpink);
+}
+
+ input,select,textarea{
+	width:180px;
+	margin: 5px;
+	height: 25px;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 15px;
+	font-family: courier;
+	font-weight: bold;
+}
+select{
+		width:180px;
+	margin: 5px;
+	height: 40px;
+
+}
+ input[type="submit"],input[type="reset"]{
+	width:110px;
+	margin: 5px;
+	height: 35px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: red;
+	color: white;
+	font-weight:bold;
+	font-size: 18px;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ input[type="submit"]{
+	background-color: green
+}
+.page_header{
+	text-align: center;
+	font-family: courier;
+	font-size: 40px;
+	font-weight: bold;
+	width:300px;
+	border-radius: 25px;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	height: 40px;
+	padding: 8px;
+	margin: 8px;
+	background-color: black;
+	color: white;
+	text-decoration: underline;	
+}
+.page_subheader{
+	font-family: courier;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 25px;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	width: 350PX;
+	text-align: center;
+	padding: 8px;
+	margin: 8px;
+	color: blue;
+}
+.page_sub_header{
+	font-family: courier;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 25px;
+	width: 250PX;
+	text-align: center;
+	padding: 4px;
+	margin: 4px;
+	color: RED;
+}
+.contact{
+	width: 100%;
+	border-radius: 30px;
+	margin: 5px;
+	padding: 5px;
+}
+.info .form_heading{
+	height: 50px;
+	width: 250px;
+ 	text-align: right;
+	font-weight: bold;
+	font-family: courier;
+	font-size: 20px;
+	color: black;
+	vertical-align: 
+}
+.info{
+	width:800px;
+}
+.info td{
+	color:red;
+	font-family: courier;
+	font-weight: bold;
+	word-spacing: 3px;
+	letter-spacing: px;
+}
+.fee{	
+	text-align: center;
+	box-shadow:0 2px 10px 0 rgba(0,0,0,0.2),0 2px 10px 0 rgba(0,0,0,0.3);
+	background-image: radial-gradient(white,lightpink);
+	border: 3px solid black;
+	border-radius: 30px;
+	padding: 5px;
+	margin: 5px;
+	background-image:url(images/fee.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.fee th,td{
+	width: 230px;
+	height: 40px;
+	font-weight: bold;
+}
+.fee th{
+	box-shadow:0 2px 10px 0 rgba(0,0,0,0.2),0 2px 10px 0 rgba(0,0,0,0.3);
+	background-color:skyblue
+}
+.fee th{
+	border-bottom: 3px solid black
+}
+.fee .idn{
+	width: 50px;
+	font-weight: bold;
+}
+.fr{	
+	font-size: 18px
+}
+.form_img img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid red;
+	border-radius: 60px;
+	padding: 3px;
+}
+.notice{
+	text-align: center;
+	border: 2px solid black;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow:0 2px 10px 0 rgba(0,0,0,0.2),0 2px 10px 0 rgba(0,0,0,0.3);
+	border-spacing: 0px;
+}
+.notice td,th{
+	text-align: center;
+	height: 35px;
+	border-radius:30px;
+}
+.notice tr:hover{
+	background-color: pink;
+	border-radius:0px;
+}
+.sn{
+	width: 10%
+}
+.dt{
+	width: 20%;
+	font-weight: normal;
+}
+td.Dsp{
+	width: 70%;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 10px
+}
+.gllry img{
+	width:320px;
+	height:200px;
+	border:2px solid black;
+}
+.course{
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}

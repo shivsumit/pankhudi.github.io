@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script,js"></script>
+</head>
+<body class="signup">
+<div class="header">
+	<div class="text1"> Pankhudi Vidyapeeth</div>
+	<div class="text2"> Soar With Pride</div>
+	<img src="images/logo2.png" class="logo">
+	<div class="social_media">
+		<a href="https://www.facebook.com"><img src="images/facebook.png"></a>
+		<a href="https://www,instagram.com"><img src="images/insta.png"></a>
+		<a href="https://www.twitter.com"><img src="images/twitter.png"></a>
+	</div>
+</div>
+
+<div class="menu">
+	<ol>
+		<a href="index.html"><li>Home</li></a>
+		<a href="about.html"><li>About</li></a>
+		<a href="notice.html"><li>Notices</li></a>
+		<a href="fees.html"><li>Fees</li></a>
+		<a href="courses.html"><li>Courses</li></a>
+		<a href="rules.html"><li>Rules</li></a>
+		<a href="gallery.html"><li>Gallery</li></a>
+		<a href="login.html"><li>Log-in</li></a>
+		<a href="signup.html"><li>Register</li></a>
+		<a href="contact.html"><li>Contact</li></a>
+	</ol>	
+</div> 
+<center><div class="page_header"> Registration </div></center>
+<form method="post">
+<table class="sign_form" align="center"> 
+	<tr><td colspan="4" align="center" class="form_img"><img src="images/user.png	"></td></tr>
+<tr> <td class="form_heading"> Student Name* :</td> <td> <input type="text" name="uname"> </td>  <td class="form_heading"> Class* :</td> <td> <select>
+<option value="Nursery"> Nursery </option>
+<option value="junior"> Junior </option>
+<option value="J-HS"> junior High-School </option>	
+<option value="High-school"> High School </option>	
+<option value="Inter"> Intermediate </option>
+<option value="Graduation"> Graduation </option>	
+<option value="PG"> Post-Graduation </option>	
+</select> </td></tr>
+<tr> <td class="form_heading"> Addmission No.* :</td> <td> <input type="text" name="add" > </td> <td class="form_heading"> Session.* :</td> <td> <input type="year" name="Session" > </td></tr>
+<tr> <td class="form_heading"> Roll No.* :</td> <td> <input type="text" name="rn" pattern="[0-9]{3}" > </td> <td class="form_heading"> Address* :</td> <td> <input type="text" name="addr"> </td></tr>
+<tr> <td class="form_heading"> City* :</td> <td> <input type="text" name="city"> </td> <td class="form_heading"> Country* :</td> <td> <input type="text" name="cntry"> </td></tr>
+<tr> <td class="form_heading"> E-mail* :</td> <td> <input type="email" name="email" > </td> <td class="form_heading"> Mobile* :</td> <td> <input type="text" name="mobile" pattern="[0-9]{10}" > </td></tr>
+<tr> <td class="form_heading"> Password* : </td> <td> <input type="Password" name="password" > </td>  <td class="form_heading"> Confirm Password* : </td> <td> <input type="Password" name="cnfpassword"> </td> </tr>
+
+<tr> <td colspan="4" align="center"> <input type="submit" name="submit" value="Register"> <input type="Reset" name="reset" value="Reset"> </td> </tr>
+<tr> <td colspan="4" align="center"> Already Registered ? <a href="login.html" style="color: blue; font-weight: bold">Log-In</a> </td> </tr>
+
+</table>
+</form>
+</body>
+</html>
